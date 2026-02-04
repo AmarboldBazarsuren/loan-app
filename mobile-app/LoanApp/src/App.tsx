@@ -3,9 +3,9 @@ import { StatusBar, LogBox } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import Toast from 'react-native-toast-message';
-import { AuthProvider } from './src/context/AuthContext';
-import AppNavigator from './src/navigation/AppNavigator';
-import { colors } from './src/theme/colors';
+import { AuthProvider } from './LoanApp/src/context/AuthContext';
+import AppNavigator from './navigation/AppNavigator';
+import { colors } from './LoanApp/src/theme/colors';
 
 // Ignore specific warnings
 LogBox.ignoreLogs([
