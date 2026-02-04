@@ -1,11 +1,12 @@
+// src/App.tsx
 import React from 'react';
 import { StatusBar, LogBox } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import Toast from 'react-native-toast-message';
-import { AuthProvider } from './LoanApp/src/context/AuthContext';
+import { AuthProvider } from './context/AuthContext';
 import AppNavigator from './navigation/AppNavigator';
-import { colors } from './LoanApp/src/theme/colors';
+import { colors } from './theme/colors';
 
 // Ignore specific warnings
 LogBox.ignoreLogs([
