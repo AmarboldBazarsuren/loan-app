@@ -1,0 +1,57 @@
+echo node_modules/ > .gitignore
+echo .env >> .gitignore
+echo .DS_Store >> .gitignore
+echo dist/ >> .gitignore
+echo build/ >> .gitignore
+echo *.log >> .gitignore
+echo .vscode/ >> .gitignore
+echo uploads/ >> .gitignore
+```
+
+### Эсвэл энэ .gitignore файлыг хуулж үүсгэнэ:
+
+**D:\loan-app\.gitignore** үүсгэнэ:
+```
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build
+dist/
+build/
+
+# Uploads
+uploads/
+temp/
+
+# Mobile
+mobile-app/android/app/build/
+mobile-app/ios/Pods/
+mobile-app/ios/build/
+mobile-app/.expo/
+mobile-app/.expo-shared/
+
+# Admin Panel
+admin-panel/build/
+admin-panel/.next/
